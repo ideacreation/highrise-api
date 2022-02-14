@@ -4,11 +4,12 @@ using System.Linq;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using RestSharp.Extensions;
+using RestSharp.Serialization.Xml;
 using RestSharp.Serializers;
 
 namespace HighriseApi.Serializers
 {
-    public class XmlIgnoreSerializer : ISerializer
+    public class XmlIgnoreSerializer : IXmlSerializer
     {
         /// <summary>
 		/// Default constructor, does not specify namespace
