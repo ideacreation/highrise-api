@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using HighriseApi.Utilities;
-using RestSharp;
-using RestSharp.Deserializers;
 using RestSharp.Serializers;
 
 namespace HighriseApi.Models

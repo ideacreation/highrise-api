@@ -3,7 +3,7 @@ using System.Linq;
 using System.Xml.Linq;
 using HighriseApi.Models;
 using RestSharp;
-using RestSharp.Deserializers;
+using RestSharp.Serializers.Xml;
 
 namespace HighriseApi.Utilities
 {
